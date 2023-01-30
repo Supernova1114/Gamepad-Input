@@ -155,14 +155,14 @@ def main():
         # Get gamepad object by index
         gamepad = gamepad_input.getGamepad(0)
 
-        # Get left stick axis values
+        # Get left stick axis values (axis moves from -1 to 1)
         (ls_x, ls_y) = gamepad_input.getLeftStick(gamepad, axis_deadzone)
         (rs_x, rs_y) = gamepad_input.getRightStick(gamepad, axis_deadzone)
 
-        # Get trigger axis values (axis goes from -1 to 1)
+        # Get trigger axis values (axis moves from 0 to 1)
         (l2, r2) = gamepad_input.getTriggers(gamepad, axis_deadzone)
 
-        # Get hat axis values
+        # Get hat axis values (axis moves from -1 to 1)
         # You can also use the hat callbacks from the run_event_loop() function
         (hat_x, hat_y) = gamepad_input.getHat(gamepad)
 
