@@ -23,6 +23,6 @@ Tested with Pygame 2.1.2
 - Example use of API is shown in api_example.py
 - Pygame's gamepad tester is controller_test.py
 #### Creating a controller configuration
-- Use controller_test.py to see button and axis ID's, and controller name.
+- Use controller_test.py or an online gamepad tester to see button and axis ID's, and controller name.
 - Open gamepads.config and assign correct ID's to each button / axis.
 - Make sure controller name is correct.
