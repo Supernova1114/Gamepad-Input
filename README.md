@@ -26,3 +26,5 @@ Tested with Pygame 2.1.2
 - Use controller_test.py or an online gamepad tester to see button and axis ID's, and controller name.
 - Open gamepads.config and assign correct ID's to each button / axis.
 - Make sure controller name is correct.
+
+![](repo-images/gamepad-input.gif)
