@@ -6,7 +6,8 @@ Author: Cameron Rosenthal @Supernova1114
 
 Pygame: https://github.com/pygame/pygame
 
-Tested with Pygame 2.1.2 on Ubuntu 22.04
+Tested with Python3, Pygame 2.1.2 on Ubuntu 22.04
+Controllers tested: XBox One S, PS4, PS5
 
 #### Linux install Pygame: 
 
