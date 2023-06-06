@@ -168,7 +168,7 @@ def main():
 
         # If you want to check if a button is pressed, you can use this
         # or use the callback functions method from the run_event_loop() function
-        # Button index corresponds to the order of preset 
+        # Button index corresponds to the order of buttons in gamepads.config
         if gamepad_input.getButtonValue(gamepad, 1):
             ...
 
