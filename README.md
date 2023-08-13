@@ -6,7 +6,7 @@ Author: Cameron Rosenthal @Supernova1114
 
 Pygame: https://github.com/pygame/pygame
 
-Tested with Python 3.10, Pygame 2.1.2, on Ubuntu 22.04 Desktop
+Tested with Python 3.10, Pygame 2.1.2, on Ubuntu 22.04 Desktop & Server
 <br>
 Controllers tested: XBox One S, PS4, PS5
 <br>
@@ -14,7 +14,7 @@ Note: To use on python versions lower than 3.10, switch the match-case statement
 
 #### Linux install Pygame: 
 
-    pip install pygame
+    pip3 install pygame
 
 #### Features
 - Controller hot-plug support.
