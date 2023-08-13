@@ -2,7 +2,10 @@
 # Description: A wrapper library for pygame's joystick module
 
 import os
+
 os.environ['PYGAME_HIDE_SUPPORT_PROMPT'] = "hide" # Hide pygame welcome message
+os.environ["SDL_VIDEODRIVER"] = "dummy" # Let pygame init without a display
+
 import pygame
 import threading
 import signal
