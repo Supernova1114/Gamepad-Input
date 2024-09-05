@@ -6,13 +6,12 @@ Author: Cameron Rosenthal @Supernova1114
 
 Pygame: https://github.com/pygame/pygame
 
-Tested with Python 3.10, Pygame 2.1.2, on Ubuntu 22.04 Desktop & Server
-<br>
-Tested on Jetson Linux DP 6.0 with Nvidia Jetson AGX Orin (requires joydev kernel module).
-<br>
-Controllers tested: XBox One S, PS4, PS5
-<br>
-Note: To use on python versions lower than 3.10, switch the match-case statements to if-else branches.
+#### Testing
+- Tested with Python 3.10, Pygame 2.1.2
+- Tested on Jetson Linux DP 6.0 with Nvidia Jetson AGX Orin.
+- Tested on Ubuntu 22.04 Desktop with an amd64 laptop.
+- Tested on Ubuntu 22.04 Server with Raspberry Pi 4B
+- Controllers tested: XBox One S, PS4, PS5, 8BitDo Ultimate C 2.4G.
 
 #### Linux install Pygame: 
 
@@ -32,5 +31,9 @@ Note: To use on python versions lower than 3.10, switch the match-case statement
 - Use controller_test.py or an online gamepad tester to see button and axis ID's, and controller name.
 - Open gamepads.config and assign correct ID's to each button / axis.
 - Make sure controller name is correct.
+
+#### Notes
+- To get this working on a Jetson AGX Orin, I had to add the joydev kernel module to its linux installation, and have the Jetson automatically login.
+- Bug within PyGame where an 8BitDo wireless controller would default some axes to 1 or -1 until any button was pressed.
 
 ![](repo-images/gamepad-input.gif)
