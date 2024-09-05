@@ -8,7 +8,7 @@ Pygame: https://github.com/pygame/pygame
 
 Tested with Python 3.10, Pygame 2.1.2, on Ubuntu 22.04 Desktop & Server
 <br>
-Tested on Jetson Linux DP 6.0 with Nvidia Jetson AGX Orin.
+Tested on Jetson Linux DP 6.0 with Nvidia Jetson AGX Orin (requires joydev kernel module).
 <br>
 Controllers tested: XBox One S, PS4, PS5
 <br>
